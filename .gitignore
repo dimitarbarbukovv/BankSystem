@@ -1,0 +1,39 @@
+# OS
+.DS_Store
+
+# IDE
+.idea/
+.vscode/
+*.iml
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Environment files
+.env
+.env.*
+!.env.example
+
+# Java / Maven
+target/
+**/target/
+bank-backend/target/
+**/.mvn/wrapper/maven-wrapper.jar
+
+# Node / Frontend
+**/node_modules/
+**/dist/
+**/.vite/
+
+# Test / coverage artifacts
+**/coverage/
+**/target/site/
+**/target/jacoco.exec
+
+# Build archives
+*.zip
+*.tar
+*.gz
